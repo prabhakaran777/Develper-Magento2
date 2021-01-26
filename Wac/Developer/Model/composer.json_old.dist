@@ -1,0 +1,22 @@
+{
+        "name": "%vendor-small%/module-%module-small%",
+        "description": "",
+        "type": "magento2-module",
+        "license": "proprietary",
+        "authors": [
+        {
+        "email": "info@yourdomain.com",
+        "name": "Dev"
+        }
+        ],
+        "minimum-stability": "dev",
+        "require": {},
+        "autoload": {
+        "files": [
+        "registration.php"
+        ],
+        "psr-4": {
+        "%vendor%\\%module%\\": ""
+        }
+        }
+        }
